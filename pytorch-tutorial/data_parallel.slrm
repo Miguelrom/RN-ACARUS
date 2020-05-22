@@ -4,7 +4,7 @@
 #SBATCH --job-name=pytorch-gpu
 #SBATCH --time=7:00:00
 #SBATCH --partition=ibtesla
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:2
 #SBATCH --export=NONE
 
 eval "$(conda shell.bash hook)"
